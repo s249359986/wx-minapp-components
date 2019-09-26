@@ -1,0 +1,6 @@
+<view class="intro">
+
+<s-table headers='{{headers}}' list='{{row}}'></s-table>
+
+
+</view>

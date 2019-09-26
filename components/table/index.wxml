@@ -1,0 +1,13 @@
+<!--components/table/index.wxml-->
+
+<view class="table">
+    <view class="tr thead">
+      <view wx:for="{{headers}}" class="td">{{item.display}}</view>
+    
+    </view>
+    <block wx:for-item='i' wx:for="{{list}}">
+      <view class="tr">
+        <view wx:for-item='j' wx:for="{{headers}}" class="td">{{i[j['text']]}}</view>        
+      </view>
+    </block>
+  </view>

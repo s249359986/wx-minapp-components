@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "s-table": "../components/table/index"
+  }
+}
