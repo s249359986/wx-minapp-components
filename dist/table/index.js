@@ -1,6 +1,6 @@
 // components/table/index.js
 Component({
-  options:{
+  options: {
     styleIsolation: "isolated"
   },
   /**
@@ -15,18 +15,18 @@ Component({
       type: Array,
       value: []
     },
-    hasBorder:{
+    hasBorder: {
       type: String,
-      value:"no"
+      value: "no"
     }
 
   },
-  externalClasses: ['s-class-header','s-class-row'],
+  externalClasses: ['s-class-header', 's-class-row'],
 
   /**
    * 组件的初始数据
    */
-  data: {      
+  data: {
   },
 
   /**
