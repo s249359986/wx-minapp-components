@@ -1,6 +1,6 @@
 <view class="intro">
 
-<s-table headers='{{headers}}' list='{{row}}'></s-table>
+<s-table hasBorder='no' s-class-header='my-class' s-class-row='my-class-row' headers='{{headers}}' list='{{row}}'></s-table>
 
 
 </view>

@@ -2,3 +2,15 @@
   margin: 30px;
   text-align: center;
 }
+.my-class{
+  color: white;
+  background-color: red;
+}
+.my-class-row:nth-child(odd){
+  color: red;
+  background-color: yellow;
+}
+.my-class-row:nth-child(even){
+  /* color: green;
+  background-color: blue; */
+}
