@@ -47,4 +47,4 @@ s-class-row | 替换行样式 | class | [{}] |
 
 #### 经典案例2
 
-![薪资计算器](./xzjsq.jpeg)
+![薪资计算器](./xzqdFromGithub.jpeg)
