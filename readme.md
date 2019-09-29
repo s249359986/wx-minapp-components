@@ -43,7 +43,7 @@ s-class-row | 替换行样式 | class | [{}] |
 
 #### 经典案例1
 
-![计分助理](./qdFromGithub.png)
+![计分助理](./qdFromGithub.jpeg)
 
 #### 经典案例2
 
