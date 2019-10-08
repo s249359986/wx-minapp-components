@@ -2,17 +2,19 @@
 /* components/table/index.wxss */
 
 .table {
+  position: relative;
+  
   border: 1px solid #ccc;
   font-size: 28rpx;
   background: #fff;  
-  border-right:none;
+  border-right:none;  
 }
 .table-noborder {
   border-right:1rpx solid #ccc;
 }
  
 .tr{
-  display: flex;
+  white-space:nowrap; 
 }
  
 .td {
@@ -20,9 +22,13 @@
   border: 1px solid #ccc;
   display: inline-block;  
   border-bottom: none;
-  flex: 1;
+  /* flex: 1; */
   padding: 16rpx;  
   border-left: none;
+
+  
+white-space:nowrap; 
+  
 }
 .td-noborder{  
   border-right: none;
@@ -32,7 +38,12 @@
   border-top: none;
   padding: 16rpx;
   font-weight: bold;
+
+display: inline-block;   
+  white-space:nowrap; 
 }
 .thead{
 /* background-color: #f8f8f9; */
+
+overflow: visible;
 }

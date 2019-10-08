@@ -1,13 +1,22 @@
 <!--components/table/index.wxml-->
-
-<view class="table table-noborder">
-    <view class="tr thead s-class-header">
-      <view wx:for="{{headers}}" class="td td-{{hasBorder}}border">{{item.display}}</view>
+ <scroll-view scroll-x="true" enable-flex='true' style="width:{{scrolWidth}}px;"  class="table table-noborder">
+    <view class="tr thead s-class-header" style='width:{{theadWidth}}px;'>
+      <view wx:for="{{headers}}" class="td td-{{hasBorder}}border" style='width:{{tdWidth}}px;' >{{item.display}}</view>
     
-    </view>
+    </view>   
+    
+
+
+    <scroll-view scroll-y="true" style="width:{{theadWidth}}px;height:{{height}}px;">
     <block wx:for-item='i' wx:for="{{list}}">
-      <view class="tr s-class-row">
-        <view wx:for-item='j' wx:for="{{headers}}" class="td td-{{hasBorder}}border">{{i[j['text']]}}</view>        
+      <view class="tr s-class-row" style='width:{{theadWidth}}px;'>
+        <view wx:for-item='j' wx:for="{{headers}}" class="td td-{{hasBorder}}border" style='width:{{tdWidth}}px;'>
+        {{i[j['text']]}}
+        </view>        
       </view>
     </block>
-  </view>
+</scroll-view>
+
+  <!-- </view> -->
+
+   </scroll-view>

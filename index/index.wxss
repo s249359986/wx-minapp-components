@@ -1,9 +1,10 @@
 .intro {
   margin: 30px;
   text-align: center;
+  overflow: scroll;
 }
 .my-class{
-  color: white;
+  color:green;
   background-color: red;
 }
 .my-class-row:nth-child(odd){

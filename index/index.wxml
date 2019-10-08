@@ -1,6 +1,32 @@
 <view class="intro">
 
-<s-table hasBorder='no' s-class-header='my-class' s-class-row='my-class-row' headers='{{headers}}' list='{{row}}'></s-table>
+
+<view>
+
+默认表格
+</view> 
+
+<s-table hasBorder='no'  headers='{{headers}}' list='{{row}}'></s-table>
 
 
+<view>
+
+固定宽度，可以滚动的表格
+</view> 
+<s-table hasBorder='no'  width='200' tdWidth='100' s-class-header='my-class' s-class-row='my-class-row' headers='{{headers}}' list='{{row}}'></s-table>
+
+
+
+<view>
+
+固定高度，可以滚动的表格
+</view> 
+<s-table hasBorder='no'  height='200'   s-class-header='my-class' s-class-row='my-class-row' headers='{{headers}}' list='{{row}}'></s-table>
+
+<view>
+
+带边框的表格
+</view> 
+
+<s-table hasBorder='yes' s-class-header='my-class' s-class-row='my-class-row' headers='{{headers}}' list='{{row}}'></s-table>
 </view>
