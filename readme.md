@@ -48,8 +48,8 @@ s-class-row | 替换行样式 | class | [{}] |
 
 #### 经典案例1
 
-![计分助理](./qdFromGithub.jpeg)
+![计分助理](http://static.songdonghong.com/github/img/qdFromGithub.jpeg)
 
 #### 经典案例2
 
-![薪资计算器](./xzqdFromGithub.jpeg)
+![薪资计算器](http://static.songdonghong.com/github/img/xzqdFromGithub.jpeg)
