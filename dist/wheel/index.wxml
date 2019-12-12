@@ -1,0 +1,21 @@
+
+<!-- 转盘开始 -->
+<view class="container">	
+		<view class="canvas-container">
+			<view  animation="{{animationData}}" class="canvas-content s-class-content" >
+				<view class="canvas-line">
+					<view class="canvas-litem" wx:for="{{awardsList}}" wx:key="unique" style="-webkit-transform: rotate({{item.lineTurn}});transform: rotate({{item.lineTurn}})"></view>
+				</view>
+        
+				<view class="canvas-list">
+					<view class="canvas-item s-class-font" wx:for="{{awardsList}}" wx:key="unique">
+				  		<view class="canvas-item-text" style="-webkit-transform: rotate({{item.turn}});transform: rotate({{item.turn}})">{{item.award}}</view>
+					</view>
+				</view>
+			</view>
+      
+			<view bindtap="playReward" class="canvas-btn {{btnDisabled}}">点</view>		
+		</view>
+
+<!-- 转盘结束 -->
+</view>

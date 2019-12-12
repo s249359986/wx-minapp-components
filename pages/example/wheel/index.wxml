@@ -1,0 +1,1 @@
+<s-wheel id='wheelId' duration='3000' runNum='6' list='{{wheelList}}' bindreward='handleReward' s-class-content='my-content' s-class-font='my-font'></s-wheel>
