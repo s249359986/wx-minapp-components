@@ -38,13 +38,7 @@ reward | Function |- | 否| 旋转结束后回调 | detai.content(选中项),det
 方法  
 
 名称   | 说明  | 使用
----|---|--- | --- | --- |
-initReward  | 当异步设置数据时需要调用它初始化转盘 |  this.selectComponent("#wheelId").initReward()
-
-方法  
-
-名称   | 说明  | 使用
----|---|--- | --- | --- |
+---|---|--- 
 initReward  | 当异步设置数据时需要调用它初始化转盘 |  this.selectComponent("#wheelId").initReward()
 
 
